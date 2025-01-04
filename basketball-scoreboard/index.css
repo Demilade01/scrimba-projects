@@ -1,0 +1,46 @@
+@font-face {
+font-family: "CursedTimerUlil-Aznm";
+src: url("/fonts/CursedTimerUlil-Aznm.ttf");
+src: url("/fonts/CursedTimerUlil-Aznm.ttf") format("ttf"),
+}
+
+body {
+    color: white;
+    margin: 0;
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    background-color: #1B244A;
+    text-align: center;
+    height: 300px;
+}
+
+#home-id {
+    background-color: #080001;
+    color: #F94F6D;
+    font-family: 'CursedTimerUlil-Aznm', Arial, sans-serif;
+}
+
+#home-id p{
+    font-size: 90px;
+    margin-top: -0px;
+    padding-top: 20px;
+    height: 10px;
+    width: 155px;
+}
+
+#home-btn {
+    margin-top: -70px;
+}
+
+button{
+    font-family: 'CursedTimerUlil-Aznm', Arial, sans-serif;
+    background: inherit;
+    color: #9AABD8;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    padding: 10px;
+}

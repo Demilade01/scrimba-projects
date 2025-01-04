@@ -1,0 +1,156 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+}
+
+img {
+    width: 100px;
+}
+
+.hero {
+    width: 718px;
+    height: 343px;
+    background-image: url("/images/torshov.jpg");
+    background-size: cover;
+    margin: 0px auto;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hero-title {
+    background: #1D3557;
+    padding: 0 10px;
+    border: none;
+    border-radius: 10px;
+    font-size: 32px;
+}
+
+.hero-subtext {
+    background: #457B9D;
+    margin-top: -5px;
+    padding: 0 10px;
+    border: none;
+    border-radius: 10px;
+    display: flex;
+    align-self: center;
+    justify-self: center;
+    font-size: 18px;
+}
+
+.activities {
+    margin: -20px auto;
+    background: #F1FAEE;
+    width: 720px;
+    height: 350px;
+    color: #1D3557;
+    display: flex;
+}
+
+.activities h3 {
+    font-weight: 700;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#activity-img {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    border-radius: 100%;
+    margin-top: 30px;
+}
+
+#activity-img img {
+    border: none;
+    border-radius: 100%;
+}
+
+.activity-text {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    border-radius: 100%;
+    margin-top: 10px;
+}
+
+.activity-text h4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+} 
+
+.activity-text p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    font-weight: 16px;
+} 
+
+.guide {
+    width: 720px;
+    height: 394px;
+    display: flex;
+}
+
+.card {
+    margin: 50px auto 0;
+    background: #A8DADC;
+    width: 400px;
+    height: 295px;
+    display: flex;
+    padding: 10px;
+    border-bottom: 5px solid #1D3557;
+    border-radius: 10px;
+}
+
+.card img {
+    margin-top: 20px;
+    width: 180px;
+    height: 250px;
+    border-radius: 10px;
+}
+
+.card h3 {
+    font-size: 24px;
+}
+
+.card p {
+    margin-top: -10px;
+    font-size: 16px;
+    font-style: italic;
+    margin-bottom: 15px;
+}
+
+.card-text {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+
+
+
+
+
+
+
+
+

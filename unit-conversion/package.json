@@ -1,0 +1,14 @@
+{
+  "name": "Scrim-s04evronq4",
+  "description": "https://scrimba.com/s04evronq4/head",
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vite": "latest"
+  },
+  "devDependencies": {}
+}
