@@ -1,0 +1,84 @@
+html, body {
+  margin: 0 auto;
+  padding: 0;
+  font-family: 'Source Sans 3', sans-serif;
+  background-color: #FFFFFF;
+  width: 400px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.avatar {
+  border-radius: 100%;
+  cursor: pointer;
+}
+
+.border {
+  border-bottom: 1px solid #C6C6C6;
+}
+
+.container {
+  margin: 10px 0 0 10px;
+  border-bottom: 20px solid #C6C6C6;
+}
+
+.second {
+  margin-top: 30px;
+}
+
+.space {
+  margin-right: 10px;
+  width: 30px;
+  height: 30px;
+}
+
+.img_text {
+  display: flex;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.text {
+  margin-top: -10px;
+  display: block;
+  line-height: 1;
+}
+
+.text h2{
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.text p {
+  font-size: 12px;
+  font-weight: 400;
+  margin-top: -10px;
+}
+
+.background-image {
+  margin-left: 0;
+}
+
+.icons {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  width: 110px;
+  cursor: pointer;
+}
+
+.comments {
+  font-weight: 400;
+  font-size: 13px;
+}
+
+.likes,
+span {
+  font-weight: 700;
+  font-size: 13px;
+  cursor: pointer;
+}
