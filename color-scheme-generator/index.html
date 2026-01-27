@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Scheme Generator</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <main>
+        <h1>Color Scheme Generator</h1>
+
+        <div class="controls">
+            <div class="control-group">
+                <label for="seed-color">Seed Color</label>
+                <input type="color" id="seed-color" value="#4a90d9">
+            </div>
+
+            <div class="control-group">
+                <label for="scheme-mode">Scheme Mode</label>
+                <select id="scheme-mode">
+                    <option value="monochrome">Monochrome</option>
+                    <option value="monochrome-dark">Monochrome Dark</option>
+                    <option value="monochrome-light">Monochrome Light</option>
+                    <option value="analogic">Analogic</option>
+                    <option value="complement">Complement</option>
+                    <option value="analogic-complement">Analogic Complement</option>
+                    <option value="triad">Triad</option>
+                    <option value="quad">Quad</option>
+                </select>
+            </div>
+
+            <button id="get-scheme-btn">Get Color Scheme</button>
+        </div>
+
+        <div id="color-results" class="color-results">
+            <!-- Color boxes will be rendered here -->
+        </div>
+    </main>
+
+    <script src="index.js"></script>
+</body>
+</html>
